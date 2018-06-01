@@ -22,6 +22,7 @@ import w7.DrawPanel;
 public class MyFrame extends JFrame implements ActionListener {
 	private MyPanel myPanel;
 	private MyPanel southPanel = new MyPanel();
+	
 	private JButton play;
 	private JButton dice;
 	private JButton map;
