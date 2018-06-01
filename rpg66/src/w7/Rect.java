@@ -10,6 +10,10 @@ public class Rect extends Shapes {
 		super(x1, y1, x2, y2, color, filled);
 	}
 	
+
+
+
+
 	public void draw(Graphics g) {
 		Graphics2D g2d = (Graphics2D) g;
 		if(filled){

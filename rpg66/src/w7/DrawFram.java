@@ -62,7 +62,7 @@ public class DrawFram extends JFrame implements ActionListener {
 		
 		//shapePanel
 		
-		randgen = new JButton("Randgen");
+		randgen = new JButton("Randgen66666666666666666");
 		gbc.gridx = 0;
 		gbc.gridy = 0;
 		gbc.gridheight = 1;

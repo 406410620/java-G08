@@ -172,6 +172,7 @@ public class DrawPanel extends JPanel implements MouseListener , MouseMotionList
 			currentshape.draw(g);
 		}
 	}
+	
 	@Override
 	public void mouseDragged(MouseEvent e) {
 		System.out.print("lalala\n");
