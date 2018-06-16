@@ -5,21 +5,20 @@ public class Player {
 	int[] x = {1000,1};
 	String name;
 	Role[] role = new Role[10];
-	int[] rolec = new int [10];
-	
+	//int[] rolec = new int [10];
 	int rolecount;
 	
 	public Player(){
-		rolec[0] = 10;
+		addrole(0);
 	}
 	
 	public Player(String name){
-		
+		this.name = name;
+		addrole(0);
 	}
 	
 	public void addrole(int n) {
-		role[rolecount++] = new Role(n);
+		role[rolecount] = new Role(n);
+		rolecount++;
 	}
-	
-	
 }
